@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jamie Aubin Portfolio Site</title>
+        <link href="./styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="my-logo" src="./Resources/Images/PersonalLogo.png"/>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#Work">Work</a>
+                        </li>
+                        <li>
+                            <a href="#About">About</a>
+                        </li>
+                        <li>
+                            <a href="#Contact">Contact</a>
+                        </li> 
+                    </ul>
+                </nav>
+                <img class="github-logo" src="./Resources/Images/Logos/Github_logo_white.png"/>
+        </header>
+        <div class="hero">
+            <div class="hero-content" class="slidein">
+                <h1 class="name">JAMIE AUBIN</h1>
+                <hr>
+                <h2 class="intro-title">DEVELOPER / <br>DESIGNER</h2>
+                <p class="intro">Hi, i'm a design oriented full stack developer living in Southampton UK</p>
+            </div>   
+        </div>
+        <div class="symbols">
+            <img src="./Resources/Images/Logos/HTML5_logo.png"/>
+            <img src="./Resources/Images/Logos/css3_logo.png"/>
+            <img src="./Resources/Images/Logos/JavaScript_logo.png"/>
+            <img src="./Resources/Images/Logos/Python-logo.png"/>
+            <img src="./Resources/Images/Logos/Chrome_logo.png"/>
+            <img src="./Resources/Images/Logos/Github_logo.png"/>
+        </div>
+        <div id="Work">
+        </div>
+        <div id="About">
+            <div class="about-main">
+                <img class="about-image" src="./Resources/Images/About.png"/>
+                <div class="about-text" class="slidein">
+                    <h3>About Me</h3>
+                    <hr class="about-line">
+                    <h4>Developer & Designer</h4>
+                    <p>Im a full stack web developer and graphic desgin graduate from Southampton UK. <br> I have a passion for design and creative problem solving. <br> I have a BA in Graphic Design from Brighton University</p>
+                    <br>
+                    <a href="#" class="btn">My Resume</a>
+                </div>
+            </div>
+        </div>
+        <div id="Contact">
+            <div class="contact-main">
+                <div class="contact-text" class="slidein">
+                    <h3 class="contact-title">Contact</h3>
+                    <hr>
+                    <p class="contact-text">If you have a project in mind then get in touch.</p>
+                    <div class="contact-symbols">
+                        <a href="#" class="social-link" ><img src="./Resources/Images/Logos/Email_icon.png"/></a>
+                        <a href="#" class="social-link" ><img src="./Resources/Images/Logos/Linkedin_logo.png"/></a>
+                        <a href="#" class="social-link" ><img src="./Resources/Images/Logos/Github_logo.png"/></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="index.html">
+                        <h4>Send me a message</h4>
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                        <textarea class="form-input" placeholder="Project Details" required></textarea>
+                        <input type="submit" class="btn" value="Send" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p class="copy">&copy; Copyright 2022. All rights reserved</p>
+                <div class="footer-symbols">
+                    <a href="#" class="social-link"><img src="./Resources/Images/Logos/Email_icon.png"/></a>
+                    <a href="#" class="social-link"><img src="./Resources/Images/Logos/Linkedin_logo.png"/></a>
+                    <a href="#" class="social-link"><img src="./Resources/Images/Logos/Github_logo.png"/></a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
