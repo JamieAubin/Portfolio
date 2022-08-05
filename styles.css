@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header {
     background-color: #183C59;
     color: white;
@@ -65,7 +67,7 @@ nav ul li a:hover {
 
 .hero-content {
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 5%;
 }
 
@@ -330,4 +332,83 @@ footer .footer-content {
     margin: 5px 0px;
     padding-left: 30px;
     font-weight: 300;
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1300px) {
+    .hero {
+        background-image: url(./Resources/Images/Hero_condensed1.png);
+    }
+    .hero-content {
+        background-color: #012F44;
+        padding: 15px 25px;
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1150px) {
+    .hero {
+        background-image: url(./Resources/Images/Hero_condensed2.png);
+    }
+    .hero-content {
+        background-color: #012F44;
+        padding: 15px 25px;
+        border-radius: 30px;
+    }
+
+    .about-image {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .hero {
+        background-image: url(./Resources/Images/Hero_condensed2.png);
+    }
+   
+    .hero-content {
+        background-color: #012F44;
+        padding: 15px 25px;
+        border-radius: 30px;
+        margin: 20px;
+        left: 2%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-title {
+        font-size: 5.8rem;
+        line-height: 110px;
+    }
+
+    .about-image {
+        width: 0px;
+        height: 0px;
+    }
+
+    h3 {
+        font-size: 5rem;
+        line-height: 90px;
+    }
+
+    .my-logo {
+        width: 0px;
+        height: 0px;
+    }
+
+    .contact-main {
+        flex-wrap: wrap;
+    }
+
+    .contact-form {
+        width: 400px;
+        padding: 2.5rem 2rem;
+        margin: 20px;
+    }
+
+    .copy {
+        font-size: 0.9rem;
+    }
 }
